@@ -1,0 +1,83 @@
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<f:debug>{all}</f:debug>
+
+<f:alias map="{grid: 'col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-1'}">
+
+<h1>Campus City Centre</h1>
+	<f:for each="{modulesStadtmitte}" as="module">
+
+		<div class="" style="clear:both;">
+			<div class="list-item">{module.title}</div>
+			<div class="list-item">{module.credits}</div>
+			<div class="list-item">
+				<f:if condition="{module.level} == '2'">
+					<f:then>X</f:then>
+					<f:else>
+						<f:if condition="{module.level} == '0'">
+							<f:then>X</f:then>
+							<f:else> </f:else>
+						</f:if>
+					</f:else>
+				</f:if>
+			</div>
+			<div class="list-item">
+				<f:if condition="{module.level} == '2'">
+					<f:then>X</f:then>
+					<f:else>
+						<f:if condition="{module.level} == '1'">
+							<f:then>X</f:then>
+							<f:else> </f:else>
+						</f:if>
+					</f:else>
+				</f:if>
+			</div>
+			<div class="list-item">
+				<f:if condition="{module.semester} == '0'">SS</f:if>
+				<f:if condition="{module.semester} == '1'">WS</f:if>
+				<f:if condition="{module.semester} == '2'">SS/WS</f:if>
+			</div>
+		</div>
+	</f:for>
+
+<h1>All Locations</h1>
+<f:for each="{modules}" as="module">
+
+<div class="" style="clear:both;">
+<div class="list-item">{module.title}</div>
+<div class="list-item">{module.credits}</div>
+<div class="list-item">
+	<f:if condition="{module.level} == '2'">
+		<f:then>X</f:then>
+		<f:else>
+			<f:if condition="{module.level} == '0'">
+				<f:then>X</f:then>
+				<f:else> </f:else>
+			</f:if>
+		</f:else>
+	</f:if>
+</div>
+<div class="list-item">
+	<f:if condition="{module.level} == '2'">
+		<f:then>X</f:then>
+		<f:else>
+			<f:if condition="{module.level} == '1'">
+				<f:then>X</f:then>
+				<f:else> </f:else>
+			</f:if>
+		</f:else>
+	</f:if>
+</div>
+<div class="list-item">
+	<f:if condition="{module.semester} == '0'">SS</f:if>
+	<f:if condition="{module.semester} == '1'">WS</f:if>
+	<f:if condition="{module.semester} == '2'">SS/WS</f:if>
+</div>
+</div>
+</f:for>
+</f:alias>
+
+</f:section>

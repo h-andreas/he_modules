@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-07-18T13:18:19Z" product-name="he_modules">
+		<header/>
+		<body>
+			<trans-unit id="title.description">
+				<source>Title of the module</source>
+			</trans-unit>
+			<trans-unit id="additional.description">
+				<source>Additional information of the module</source>
+			</trans-unit>
+			<trans-unit id="description.description">
+				<source>pdf file with module description</source>
+			</trans-unit>
+			<trans-unit id="url.description">
+				<source>URL of the module description to the view in the portal</source>
+			</trans-unit>
+			<trans-unit id="credits.description">
+				<source>Number of the ECTS credits</source>
+			</trans-unit>
+			<trans-unit id="level.description">
+				<source>Level of the course</source>
+			</trans-unit>
+			<trans-unit id="semester.description">
+				<source>Semester of the course when it takes place</source>
+			</trans-unit>
+			<trans-unit id="studyprogram.description">
+				<source>Relation to one or more study programs</source>
+			</trans-unit>
+			<trans-unit id="person.description">
+				<source>Person in charge of the module</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

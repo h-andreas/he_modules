@@ -1,0 +1,21 @@
+
+config.tx_extbase{
+    persistence{
+        classes{
+
+            HSE\HeTools\Domain\Model\Studyprograms {
+                subclasses {
+                    Tx_HeModules_Studyprograms = HSE\HeModules\Domain\Model\Studyprograms
+					
+          		}
+            }
+            HSE\HeModules\Domain\Model\Studyprograms {
+                mapping {
+                    tableName = tx_hetools_domain_model_studyprograms
+                    recordType = Tx_HeModules_Studyprograms
+                }
+            }
+            
+    	}
+    }
+}

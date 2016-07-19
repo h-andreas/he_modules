@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-07-18T13:18:19Z" product-name="he_modules">
+		<header/>
+		<body>
+			<trans-unit id="tx_hemodules_domain_model_modules">
+				<source>Modules</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.additional">
+				<source>Additional</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.url">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.credits">
+				<source>Credits</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.level">
+				<source>Level</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.semester">
+				<source>Semester</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.studyprogram">
+				<source>Studyprogram</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_modules.person">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_studyprograms">
+				<source>Studyprograms</source>
+			</trans-unit>
+			<trans-unit id="tx_hemodules_domain_model_studyprograms.course">
+				<source>Course</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
